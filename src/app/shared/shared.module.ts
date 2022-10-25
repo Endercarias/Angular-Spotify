@@ -23,7 +23,7 @@ import { OrderListPipe } from './pipe/order-list.pipe';
     PlayListHeaderComponent,
     PlayListBodyComponent,
     ImgBrokenDirective,
-    OrderListPipe
+    OrderListPipe,
   ],
   imports: [
     CommonModule,
