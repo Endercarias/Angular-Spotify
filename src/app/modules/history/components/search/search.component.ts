@@ -9,7 +9,7 @@ export class SearchComponent implements OnInit {
 
   @Output() callbackData:EventEmitter<any> = new EventEmitter()
 
-  src: string = ' '
+  src: string = ''
 
   constructor() { }
 
@@ -21,9 +21,6 @@ export class SearchComponent implements OnInit {
       this.callbackData.emit(term)
       console.log('👉 Llamamos a nuestra API HTTP GET', term);
     }
-
-    
-  
   }
 
 }
